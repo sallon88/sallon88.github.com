@@ -16,7 +16,7 @@ task :post do
   puts "creating new post #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: default"
+    post.puts "layout: post"
     post.puts "title: \"#{title}\""
     post.puts "---"
   end
