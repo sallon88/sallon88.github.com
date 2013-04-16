@@ -1,4 +1,4 @@
-# usage: rake post title="a title" date="2012-12-25"
+# usage: rake post title="a title"
 
 require 'time'
 
@@ -10,7 +10,7 @@ task :post do
   filename = File.join('_posts', "#{date}-#{slug}.md")
 
   if File.exists? filename
-    abort 'rake aborted!' if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+    abort "rake aborted! #{filename} already exists"
   end
 
   puts "creating new post #{filename}"
