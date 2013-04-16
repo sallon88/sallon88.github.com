@@ -9,7 +9,7 @@ title: "换个简单的页面风格"
 以后就这样写日志啦
 
 {% highlight ruby %}
-rake post 'new post'
+rake post title='new post'
 git add .
 git commit -m 'add new post'
 git push

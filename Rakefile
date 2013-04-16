@@ -4,7 +4,7 @@ require 'time'
 
 desc "create a new post in _posts directory"
 task :post do
-  title =  ARGV[1] || 'new post'
+  title = ENV['title'] || 'new post'
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   date = Time.now.strftime('%Y-%m-%d')
   filename = File.join('_posts', "#{date}-#{slug}.md")
