@@ -61,6 +61,10 @@ pre code {
 	padding: 14px 15px 10px 15px;
 }
 
+#head li {
+	float:right;
+}
+
 #body {
 	margin: 0 25px 0 25px;
 }

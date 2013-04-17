@@ -11,7 +11,14 @@
 
 	<body>
 		<div id="container">
-			<div id="head">{{ page.title}}</div>
+			<div id="head">
+				<ul>
+					<li><a href="http://tomlog.com/atom.xml"><img src="/images/rss_icon.png" /></a></li>
+					<li><a href="http://github.com/sallon88"><img src="/images/github_icon.png" /></a></li>
+					<li><a href="http://twitter.com/sallon88"><img src="/images/twitter_icon.png" /></a></li>
+				</ul>
+				{{ page.title}}
+			</div>
 			<div id="body">
 				{{ content }}
 			</div>
