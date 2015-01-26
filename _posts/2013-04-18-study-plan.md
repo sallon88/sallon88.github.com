@@ -3,12 +3,6 @@ layout: post
 title: "近期学习计划"
 ---
 
-记得有句话说，以前没吃过的饭，总有一天要回来吃，
-
-数据结构和算法就是我没吃过的饭。
-
-以下是菜单:
-
 1. [single variable calculus(18.01)](http://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
 [网易公开课](http://v.163.com/special/sp/singlevariablecalculus.html)
 
@@ -18,6 +12,3 @@ title: "近期学习计划"
 
 4. [introduction to algorithms(6.045j)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/index.htm) 
 [网易公开课](http://v.163.com/special/opencourse/algorithms.html)
-
-学习路线：
-单变量微积分 -> 计算机数学 -> 计算机程序构造和解释 -> 算法导论
